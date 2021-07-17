@@ -1,0 +1,93 @@
+@media screen and (max-width: 767px) {
+  #header{position: relative; z-index: 10; padding: 15px 0;}
+  .logo {width: 260px;}
+#nav-icon1 {display: block; margin-top: 10px;}
+.header-right .menu{position: absolute; width: 100%; background: #263b80; top: 100%; display: none; left: 0;}
+.header-right .menu li{float: none; border-top: solid 1px #14285a; border-bottom: solid 1px #425fab;}
+.header-right .menu li a{display: block; padding: 10px; color: white;}
+.header-right .menu li:first-child{ border-top: 0 none;}
+.header-right .menu li:last-child{ border-bottom: 0 none;}
+
+.call-wrapper{display: none;}
+
+.water-test-form input[Type="text"],.button,.header-right,.left-column,.center-column,.right-column,.am-hero-slider, .am-hero-clients,.two-col-wrapper .two-col-left, .two-col-wrapper .two-col-right,.half-width {float: none; width: 100%;}
+.water-test-form{padding: 0px 20px 20px;}
+.water-test-form input[Type="text"]{margin-bottom: 20px;}
+.banner-content{ background: rgba(255,255,255,0.4); padding:20px; max-width: 100%;}
+.logo-section img{margin: 0;}
+
+.main-banner h1{font-size: 32px; margin-bottom: 20px;}
+.center-column{margin-bottom: 40px;}
+.logo-list img {margin: 0;}
+
+.footer-form input[Type="text"]{width: 100%;}
+.footer-form .button{margin-left: 0; margin-top: 7px;}
+
+#footer .menu li{margin-bottom: 8px;}
+
+.copywrite ul{margin-left: 0; margin-top: 15px;}
+.AM-hero-section .am-hero-clients .learn-more{ position: static; width: 100%;}
+.AM-hero-section .am-hero-slider img{ width: 100%;}
+.AM-hero-section .am-hero-slider { margin-bottom:  30px;}
+
+.promo-list { overflow: auto;}
+.promo-list ul{white-space: nowrap; overflow: initial;}
+.promo-list ul li{float: none; width: auto; display: inline-block;}
+
+.top-banner { background-position: 12% 0 !important;}
+.top-banner .facts-banner-content{ color: white; background: rgba(0,0,0,0.5); left: 0 !important; bottom: 0 !important; width: 100%; padding:  20px; font-size: 18px !important; line-height: 1.4;}
+
+h1{font-size: 45px; margin: 27px 0; line-height: 1.2}
+h2{font-size: 22px; margin-bottom: 20px;}
+
+.button{font-size: 20px !important;}
+
+.two-col-wrapper .two-col-right,.news-content ul.news-list{padding-left: 0;}
+
+.contact-content .container{ max-width: 100%;}
+.top-banner.contact-banner{ background-position:  center !important;}
+
+}
+@media screen and (max-width: 1224px) {
+.container,  #header .container,#footer .container { padding-left: 10px; padding-right: 10px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container,  #header .container,#footer .container{max-width: 750px !important;}
+  #header{padding: 22px 0;}
+  .header-right .menu li{padding: 0 6px;}
+  .header-right .menu li a{font-size: 13px;}
+
+  .main-banner h1 {
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.logo-section{ padding: 35px 0;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .container,#header .container,#footer .container{max-width: 970px !important;}
+  .learn-more a{font-size: 18px;}
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1269px) {
+  .container,#header .container,#footer .container{max-width: 1180px !important;}
+  .am-hero-clients li{min-height: 133px;}
+  .am-hero-clients li img{display: inline; max-width: 80%;}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .left-column{float: none; width: 100%;}
+  .left-column::before{content: ''; display: block; clear: both; height: 40px;}
+  .center-column{ width: 50%; }
+  .right-column{width: 50%;padding-left: 10%;}
+}
+@media screen and (min-width: 768px){
+.header-right .menu{display: block !important;}
+.two-col-wrapper::before{ content: ''; display: block; width: 1px; height: 100%; position: absolute; left: 50%; background: #c4ab7a; top: 0;}
+}
